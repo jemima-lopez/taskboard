@@ -1,13 +1,13 @@
-import { Button } from "@mui/material";
+
 
 function Task() {
   return (
     <>
-      <button className="contained" sx={{ backgroundColor: 'blue', color: 'white', ':hover': { backgroundColor: 'darkblue' } }}>Task in progress</button>
-      <Button className="contained  bg-blue-400 test-white hover:bg-blue-600">Task completed</Button>
-      <Button className="contained bg-blue-400 test-white hover:bg-blue-600">Task Won't Do</Button>
-      <Button className="contained bg-blue-400 test-white hover:bg-blue-600">Task To Do</Button>
-      <Button className="contained bg-blue-400 test-white hover:bg-blue-600">New Task</Button>
+      <button className="contained bg-blue-400 text-white hover:bg-blue-600 py-2 px-4">Task in progress</button>
+      <button className="contained bg-blue-400 text-white hover:bg-blue-600 py-2 px-4">Task completed</button>
+      <button className="contained bg-blue-400 text-white hover:bg-blue-600 py-2 px-4">Task Won't Do</button>
+      <button className="contained bg-blue-400 text-white hover:bg-blue-600 py-2 px-4">Task To Do</button>
+      <button className="contained bg-blue-400 text-white hover:bg-blue-600 py-2 px-4">New Task</button>
     </>
   );
 }

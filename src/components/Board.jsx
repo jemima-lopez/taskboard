@@ -3,7 +3,7 @@
 
 function Board() {
   return (
-    <div className="contained" sx={{ backgroundColor: 'background' }}>Board</div>
+    <div className="contained justify-center py-2 px-4">Board</div>
   )
 }
 export default Board
